@@ -8,16 +8,24 @@
 
 
  2
+ let arr = []
+  arr = document.querySelectorAll(" .as-imagegrid-item .as-imagegrid-item-title")
+
+arr= [...arr].map((i) => {
+  return i.textContent.replace("Support", "")
+})
 
 
-arr = document.querySelector(".as-imagegrid .as-imagegrid-item-title  ");
 
 
 
-let arr = document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title");
-let newarr = [...arr].map((i) => {
-  return i.textContent.replace(" Support", "");
-});
+
+
+// arr = document.querySelector(".as-imagegrid .as-imagegrid-item-title  ");
+// let arr = document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title");
+// let newarr = [...arr].map((i) => {
+//   return i.textContent.replace(" Support", "");
+// });
 
 
 
@@ -59,10 +67,13 @@ document.querySelector(
 serch.addEventListener("mouseover",function(e){
     e.target.style.backgroundColor = "red"})
 
+7.
 
+ let key = document.querySelector(".homepage-hero-search .search-input-field");
 
+ key.elements['hp-search-input'].value = "css selectors";
 
-
+ key.submit();
 
 
 
@@ -115,5 +126,43 @@ serch.addEventListener("mouseover",function(e){
 
 document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
+15.
+    document.querySelector("#d560824win9b .ps-top .ps-title a").style.cssFloat = "right";
 
-     
+
+
+
+     16.
+
+     document.querySelector(".section-title_title__VEDfK").innerHTML =" Start From Scratch";
+
+
+
+     17.
+
+      btn =document.querySelector(".btn-container ").innerHTML = Date().toString();
+
+ 
+
+
+
+     18.
+
+     document.querySelector(".p-f03-footer-container  ").style.backgroundColor = "yellow"
+
+
+
+     document.querySelector(".footerpage  ").style.backgroundColor = "yellow"
+
+
+     document.querySelector(".p-f03-footer-container ").style.background = "#E07C24"
+
+
+     19.
+
+
+     document.querySelector(" .navbar-brand .logo").src
+
+     20.
+
+     document.querySelector(".desc").style.color = "orange"

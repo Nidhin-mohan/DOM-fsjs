@@ -409,6 +409,15 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
 ![Output](./Pic29.png)
 
+
+# my answer
+
+```
+    document.querySelector("#d560824win9b .ps-top .ps-title a").style.cssFloat = "right";
+```
+![Output](/assets/15ans.png)
+
+
 16. Webiste Name: [Vercel](https://vercel.com/)
 
 ### Topics
@@ -426,6 +435,14 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ### Output
 
 ![Output](./Pic31.png)
+
+# my answer
+
+```
+ document.querySelector(".section-title_title__VEDfK").innerHTML =" Start From Scratch";
+ ```
+![Output](./assets/16ans.png)
+
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
@@ -445,6 +462,15 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
 ![Output](./Pic32.png)
 
+# My answer
+
+```
+btn =document.querySelector(".btn-container ").innerHTML = Date().toString();
+
+```
+
+![Output](/assets/17ans.png)
+
 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
 ### Topics
@@ -462,6 +488,13 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ### Output
 
 ![Output](./Pic35.png)
+
+# My Answer
+```
+   document.querySelector(".p-f03-footer-container ").style.background = "#E07C24"
+```
+![Output](/assets/18ans.png)
+
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -481,6 +514,15 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 
 ![Output](./Pic37.png)
 
+
+# my answer
+
+```
+     document.querySelector(" .navbar-brand .logo").src
+
+```
+![Output](/assets/19ans.png)
+
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
 ### Topics
@@ -498,3 +540,11 @@ document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"
 ### Output
 
 ![Output](./Pic39.png)
+
+
+# My answer
+
+```
+     document.querySelector(".desc").style.color = "orange"
+```
+![Output](/assets/20ans.png)
